@@ -1,6 +1,20 @@
 # AIRL4MMV
 
-Standalone publication snapshot for adversarial inverse reinforcement learning on mixed-mode ventilation control.
+Please cite this compendium as:
+```
+@article{LIANG2026117444,
+title = {Adversarial inverse reinforcement learning control for mixed-mode ventilation systems with physics-constrained neural network},
+journal = {Energy and Buildings},
+pages = {117444},
+year = {2026},
+issn = {0378-7788},
+doi = {https://doi.org/10.1016/j.enbuild.2026.117444},
+url = {https://www.sciencedirect.com/science/article/pii/S0378778826005049},
+author = {Wei Liang and Adrian Chong}
+}
+```
+
+Adversarial inverse reinforcement learning on mixed-mode ventilation control.
 
 ## Contents
 
@@ -29,8 +43,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 pytest tests/test_standalone_repo.py
 ```
-
-Open the notebooks from this folder root. They already resolve project paths locally and no longer require the parent `AIRL4MMV_debug` tree.
 
 ## Notes
 
